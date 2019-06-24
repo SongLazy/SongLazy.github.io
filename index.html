@@ -1,0 +1,973 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=10;IE=9;IE=8;IE=7;IE=EDGE">
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+		<link rel="alternate" media="handheld" href="#" />
+		<meta charset="utf-8">
+		<title>宋磊的简历</title>
+		<meta content="宋磊的简历" name="description">
+		<style>
+			* {
+            outline: none;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+            font-family: "Hiragino Sans GB", "Microsoft Yahei", "SimSun", Arial, "Helvetica Neue", Helvetica;
+            color: #333;
+            word-wrap: break-word;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        main,
+        menu,
+        nav,
+        section,
+        summary {
+            display: block;
+        }
+
+        progress {
+            display: inline-block;
+            vertical-align: baseline;
+        }
+
+        a {
+            color: #00b38a;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #00b38a;
+			text-decoration: underline;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 10px 0;
+            font-weight: normal;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        p+p {
+            margin-top: 10px;
+        }
+
+        img {
+            border: 0;
+            vertical-align: top;
+            display: inline-block;
+        }
+
+        button,
+        input,
+        optgroup,
+        select,
+        textarea {
+            margin: 0;
+            padding: 0;
+            border: 1px solid #ededed;
+            border-radius: 0;
+            font-family: "Hiragino Sans GB", "Microsoft Yahei", "SimSun", Arial, "Helvetica Neue", Helvetica;
+        }
+
+        textarea {
+            overflow: auto;
+        }
+
+        label,
+        select,
+        button,
+        input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        input[type="radio"],
+        input[type="checkbox"],
+        input[type="file"] {
+            cursor: pointer;
+        }
+
+        input[type=text],
+        input[type=password],
+        textarea {
+            font-family: "Microsoft Yahei", "SimSun", Arial, "Helvetica Neue", Helvetica;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        th,
+        td {
+            padding: 0;
+        }
+
+        strong {
+            font-weight: normal;
+        }
+
+        em,
+        i {
+            font-style: normal;
+        }
+
+        dl,
+        dt,
+        dd {
+            margin: 0;
+        }
+
+        ::selection {
+            color: #fff;
+            background-color: #00b38a;
+        }
+
+        ::-moz-selection {
+            color: #fff;
+            background-color: #00b38a;
+        }
+
+        ul,
+        ol {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        #container {
+            width: 720px;
+            margin: 50px auto 54px auto;
+            border: 1px solid #e3ebe9;
+            border-radius: 5px;
+        }
+
+        .mr-template {
+            padding: 50px 50px 10px;
+        }
+
+        .mr-template .mr-template_title {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+
+        .mr-template .mr-template_title span {
+            font-size: 18px;
+            color: #333333;
+            font-weight: 600;
+            position: relative;
+            margin-left: 10px;
+        }
+
+        .mr-template .mr-template_title span:before {
+            content: '';
+            display: block;
+            border-left: 3px solid #00B38A;
+            height: 16px;
+            width: 3px;
+            position: absolute;
+            left: -7px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .mr-template .mr_md_del {
+            display: none;
+        }
+
+        /***** 基本信息 ****/
+
+        .basic {
+            padding: 50px;
+            background: #FAFAFA;
+            border-radius: 5px 5px 0 0;
+            border-bottom: 1px solid #E3EBE9;
+            display: flex;
+        }
+
+        .basic .basic-photo {
+            height: 88px;
+            width: 88px;
+            display: inline-block;
+            position: relative;
+        }
+
+        .basic .basic-photo img {
+            height: 88px;
+            width: 88px;
+            position: absolute;
+            top: 0;
+            border-radius: 50%;
+        }
+
+        .basic .basic-photo .basic-photo_shadow {
+            display: none;
+        }
+
+        .basic .basic-photo:hover .basic-photo_shadow {
+            display: block;
+        }
+
+        .basic .basic-info {
+            position: relative;
+            width: 100%;
+            margin-left: 20px;
+            flex: 1;
+        }
+
+        .basic .basic-info .edit-btn {
+            position: absolute;
+            right: 0;
+            top: 4px;
+        }
+
+        .basic .basic-info .basic-name-area {
+            overflow: hidden;
+            height: 37px;
+            margin-bottom: 11px;
+        }
+
+        .basic .basic-info .basic-name {
+            float: left;
+            max-width: 250px;
+            font-size: 26px;
+            color: #333333;
+            font-weight: 600;
+            line-height: 37px;
+        }
+
+        .basic .basic-info .icon-sex {
+            width: 13px;
+            height: 13px;
+            float: left;
+            margin-top: 16px;
+            margin-left: 10px;
+            background: none;
+        }
+
+        .basic .basic-info .icon-sex.icon-sex__male {
+            background: url(https://www.lgstatic.com/common/image/pc/icon_man.png);
+        }
+
+        .basic .basic-info .icon-sex.icon-sex__female {
+            background: url(https://www.lgstatic.com/common/image/pc/icon_woman.png);
+        }
+
+        .basic .basic-info .basic-self {
+            margin-top: 20px;
+        }
+
+        .basic .basic-info p {
+            font-size: 14px;
+            color: #333333;
+            line-height: 20px;
+            margin-top: 6px;
+        }
+
+        .basic .basic-info i {
+            display: inline-block;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+
+        .basic .basic-info .basic-tel_icon {
+            width: 11px;
+            height: 14px;
+            margin-right: 2px;
+            background: url(https://www.lgstatic.com/common/image/pc/icon_phone.png);
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .basic .basic-info .basic-email_icon {
+            width: 14px;
+            height: 11px;
+            margin-right: 2px;
+            background: url(https://www.lgstatic.com/common/image/pc/icon_mail.png);
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .basic .basic-info .basic-tel {
+            margin-right: 20px;
+        }
+
+        .basic-tel span {
+            vertical-align: middle;
+        }
+
+        .basic-email span {
+            vertical-align: middle;
+        }
+
+        /***** 基本信息 end ****/
+
+        /***** 自我描述 ****/
+
+        .per .per-self_content {
+            position: relative;
+        }
+
+        .per .per-self_content .per-self_des {
+            margin-top: 13px;
+            font-size: 14px;
+            color: #666666;
+            line-height: 30px;
+        }
+
+        .per .per-self_content .per-self_des p {
+            margin-top: 0;
+        }
+
+        .per .per-self_content .per-self_des ol {
+            list-style-type: decimal;
+            -webkit-padding-start: 20px;
+        }
+        .per .per-self_content .per-self_des ul {
+            list-style: disc;
+            -webkit-padding-start: 20px;
+        }
+
+        /***** 自我描述 end ****/
+
+        /***** 工作经历 ****/
+
+        .work-exp .work-exp_list {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .work-exp .work-exp_list .exp-list_time {
+            font-size: 14px;
+            color: #666666;
+            position: absolute;
+            right: 0;
+        }
+
+        .work-exp .work-exp_list .exp-list_top {
+            display: flex;
+            align-items: center;
+        }
+
+        .work-exp .work-exp_list .exp-list_top img {
+            width: 46px;
+            height: 46px;
+            margin-right: 10px;
+        }
+
+        .work-exp .work-exp_list .exp-list_top .exp-list_right {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            height: 46px;
+            justify-content: space-between;
+        }
+
+        .work-exp .work-exp_list .exp-list_top .exp-list_right p,
+        .work-exp .work-exp_list .exp-list_top .exp-list_right strong {
+            font-size: 14px;
+            color: #333333;
+        }
+
+        .work-exp .work-exp_list .exp-list_top .exp-list_right strong {
+            font-weight: 600;
+        }
+
+        .work-exp .work-exp_list .tagboard {
+            margin: 20px 0 10px;
+        }
+
+        .work-exp .work-exp_list .exp-list_content {
+            font-size: 14px;
+            color: #666666;
+            line-height: 30px;
+        }
+
+        .tagboard .tagboard-tag {
+            font-size: 12px;
+            color: #999;
+            line-height: 18px;
+            padding: 3px 10px;
+            border: 1px solid #EAEDEC;
+            border-radius: 100px;
+            margin-right: 10px;
+        }
+
+        .work-exp .work-exp_list .exp-list_content ul, .work-exp .work-exp_list .exp-list_content_highlight ul {
+            list-style: disc;
+            -webkit-padding-start: 20px;
+        }
+
+        .work-exp .work-exp_list .exp-list_content ol, .work-exp .work-exp_list .exp-list_content_highlight ol {
+            list-style-type: decimal;
+            -webkit-padding-start: 20px;
+        }
+        /***** 工作经历 end ****/
+
+        /***** 项目经历 ****/
+
+        .pro-exp .pro-exp_list {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .pro-exp .pro-exp_list .exp-list_title {
+            font-size: 14px;
+            color: #333333;
+            font-weight: 600;
+            cursor: default;
+            display: flex;
+        }
+
+        .pro-exp .pro-exp_list .exp-list_title .exp-project_name, .pro-exp .pro-exp_list .exp-list_title .exp-project_company span {
+            max-width: 222px;
+            display: block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .pro-exp .pro-exp_list .exp-list_title .exp-project_company {
+            display: flex;
+        }
+
+        .pro-exp .pro-exp_list .exp-list_time {
+            font-size: 14px;
+            color: #666666;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .pro-exp .pro-exp_list .exp-list_content,
+        .pro-exp .pro-exp_list .exp-project_des {
+            font-size: 14px;
+            color: #666666;
+            line-height: 30px;
+            margin-top: 10px;
+        }
+
+        .pro-exp .exp-list_title.active:hover {
+            color: #00B38A;
+            cursor: pointer;
+        }
+        .pro-exp .exp-project_url {
+            font-size: 14px;
+            color: #666;
+            line-height: 30px;
+        }
+        .pro-exp .pro-exp_list .exp-list_content ul, .pro-exp .pro-exp_list .exp-project_des ul {
+            list-style: disc;
+            -webkit-padding-start: 20px;
+        }
+
+        .pro-exp .pro-exp_list .exp-list_content ol,.pro-exp .pro-exp_list .exp-project_des ol{
+            list-style-type:decimal;-webkit-padding-start:20px
+        }
+
+        /***** 项目经历 end ****/
+
+        /***** 教育经历 ****/
+
+        .edu-exp .edu-exp_list {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .edu-exp .edu-exp_list .exp-list_time {
+            font-size: 14px;
+            color: #666666;
+            position: absolute;
+            right: 0;
+        }
+
+        .edu-exp .edu-exp_list .exp-list_top {
+            display: flex;
+            align-items: center;
+        }
+
+        .edu-exp .edu-exp_list .exp-list_top img {
+            width: 46px;
+            height: 46px;
+            margin-right: 10px;
+        }
+
+        .edu-exp .edu-exp_list .exp-list_top .exp-list_right {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            height: 46px;
+            justify-content: space-between;
+        }
+
+        .edu-exp .edu-exp_list .exp-list_top .exp-list_right p,
+        .edu-exp .edu-exp_list .exp-list_top .exp-list_right strong {
+            font-size: 14px;
+            color: #333333;
+        }
+
+        .edu-exp .edu-exp_list .exp-list_top .exp-list_right strong {
+            font-weight: 600;
+        }
+
+
+        /***** 教育经历 end ****/
+
+        /***** 社交主页 ****/
+
+        .social-page .social-page_list {
+            margin-bottom: 30px;
+            position: relative;
+        }
+
+        .social-page .social-page_list .social-page_content {
+            display: flex;
+        }
+
+        .social-page .social-page_list .social-page_content img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+            border-radius: 50%;
+        }
+
+        .social-page .social-page_list .social-page_content p {
+            font-size: 14px;
+            color: #666666;
+        }
+
+
+        /***** 社交主页 end ****/
+                /***** 图片作品 ****/
+
+        .portfolio-page .portfolio-list{
+            margin-bottom: 30px;
+            position: relative;
+        }
+        .portfolio-page .portfolio-list .portfolio-content{
+            font-size: 14px;
+            color: #666666;
+        }
+
+
+        /***** 图片作品 end ****/
+    </style>
+	</head>
+
+	<body>
+		<div id="container">
+			<!-- 基本信息 -->
+			<div class="basic" id="baseInfo">
+				<div class="basic-photo">
+					<img class="mr_headimg user-avatar" id="userpic" src="https://www.lgstatic.com/i/image2/M00/0F/A8/CgoB5lnnKpyALkBwAABTzzF4IT403.jpeg"
+					 width="120" height="120" alt="头像" />
+				</div>
+				<div class="basic-info">
+					<div class="basic-name-area">
+						<p class="basic-name female">宋磊</p>
+						<i class="icon-sex icon-sex__male"></i>
+					</div>
+					<p>
+						<span class="basic-company">河南太平医疗管理有限公司</span>
+						<span> / </span>
+						<span class="basic-job">前端、移动端开发</span>
+					</p>
+					<p class="basic-self">
+						<span class="basic-exp">4年工作经验 / </span>
+						<span class="basic-edu">本科
+							/
+						</span>
+						<span class="basic-age">27岁</span>
+					</p>
+					<p>
+						<span class="basic-tel">
+							<i class="basic-tel_icon"></i>
+							<span>18519862014</span>
+						</span>
+						<span class="basic-email">
+							<i class="basic-email_icon"></i>
+							<span>18519862014@163.com</span>
+						</span>
+					</p>
+				</div>
+			</div>
+			<!-- /基本信息 -->
+
+			<!-- 自我描述 -->
+			<div class="mr-template per" id="perAbility">
+				<div class="mr-template_title">
+					<span>自我描述</span>
+				</div>
+				<div class="tagboard integrative-tag">
+					<div class="integrative-tag_content">
+						<span class="tagboard-tag">uni-app</span>
+						<span class="tagboard-tag">跨平台app</span>
+						<span class="tagboard-tag">html+css+js</span>
+						<span class="tagboard-tag">objective-c</span>
+						<span class="tagboard-tag">vue.js</span>
+						<span class="tagboard-tag">热爱学习</span>
+						<span class="tagboard-tag">有责任心</span>
+					</div>
+				</div>
+				<div class="per-self_content">
+					<div class="per-self_des">
+						<p>4年iOS和前端开发经验。参与、主导、独立开发过多款iOS原生app、跨平台app以及网站，涉及理财，教育，医疗，医美，劳务、资讯等多行业。熟练掌握oc、html+css+js、jQuery、vue.js、uni-app、h5plus。目前独立负责公司所有前端、移动端开发维护工作。</p>
+						<p>开源组件：
+							<ul>
+								<li><a href="http://ext.dcloud.net.cn/plugin?id=381">sl-filter(uni-app)</a></li>
+								<li><a href="https://github.com/SongLazy/SLSlideMenu">SLSlideMenu(OC)</a></li>
+								<li><a href="https://github.com/SongLazy/SLAlertView">SLAlertView(OC)</a></li>
+							</ul>
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- /自我描述 -->
+
+
+			<!-- 工作经历 -->
+			<div class="mr-template work-exp" id="workExp">
+				<div class="mr-template_title">
+					<span>工作经历</span>
+				</div>
+				<ol class="work-exp_group">
+					<li class="work-exp_list">
+						<p class="exp-list_time">2017.12-至今</p>
+						<div class="exp-list_top">
+							<img src="https://www.lgstatic.com/images/logo_default.png" alt="公司Logo">
+							<div class="exp-list_right">
+								<strong class="exp-list_title">
+									<span>河南太平医疗管理有限公司</span>
+									／
+									<span>网络部</span>
+								</strong>
+								<p>前端、移动端开发</p>
+							</div>
+						</div>
+						<div class="tagboard">
+							<span class="tagboard-tag">跨平台app</span>
+							<span class="tagboard-tag">移动端</span>
+							<span class="tagboard-tag">前端开发</span>
+						</div>
+						<div class="exp-list_content">
+							<p>1.负责产品功能需求的分析、制定；协同UI设计、后端。</p>
+							<p>2.负责医疗app【沙澧健康】的开发以及上线，包括iOS和安卓（mui+h5plus），后台管理系统（vue）的开发及维护。</p>
+							<p>3.负责医美平台app的开发，包括iOS和安卓（uni-app）、后台管理系统（vue）的开发。</p>
+							<p>4.负责医院网站（pc端+移动端）（html+css+js/jq）的开发及维护。</p>
+							<p>5.负责劳务app【西红柿管家】的开发以及上线，包括iOS和安卓（uni-app），微信小程序【西红柿管家】开发（uni-app），以及后台管理系统（vue）的开发及维护。</p>
+							<p>6.负责心理咨询/资讯网站、微信小程序、双端app以及对应的后台管理系统的开发及维护。</p>
+						</div>
+					</li>
+					<li class="work-exp_list">
+						<p class="exp-list_time">2015.07-2017.09</p>
+						<div class="exp-list_top">
+							<img src="https://www.lgstatic.com/image1/M00/00/48/Cgo8PFTUXOaAC-kdAABYGGH-G_o900.png" alt="公司Logo">
+							<div class="exp-list_right">
+								<strong class="exp-list_title">
+									<span>北京盼大世纪信息技术有限公司</span>
+									／
+									<span>技术部</span>
+								</strong>
+								<p>iOS开发工程师</p>
+							</div>
+						</div>
+						<div class="tagboard">
+							<span class="tagboard-tag">移动端</span>
+							<span class="tagboard-tag">前端开发</span>
+							<span class="tagboard-tag">OC</span>
+						</div>
+						<div class="exp-list_content">
+							<p>iOS独立开发。负责公司理财端iOS App，渠道端iOS App开发与维护。参与开发前端项目【新销售系统】。</p>
+							<p>1.独立负责iOS端产品开发与维护、迭代更新</p>
+							<p>2.与产品经理讨论、确定需求 </p>
+							<p>3.与服务端人员协调接口 </p>
+							<p>4.完成产品调试、分发、上线等工作&nbsp;</p>
+							<p>5.封装滑动菜单、弹窗等自定义控件在项目中统一使用</p>
+							<p>6.参与开发前端项目【新销售系统】</p>
+						</div>
+					</li>
+				</ol>
+			</div>
+			<!-- /工作经历 -->
+
+			<!-- 项目经历 -->
+			<div class="mr-template pro-exp" id="proExp">
+				<div class="mr-template_title">
+					<span>项目经历</span>
+				</div>
+				<ol class="pro-exp_group">
+					<li class="pro-exp_list">
+						<p class="exp-list_title">
+							<span class="exp-project_name">西红柿劳务后台管理系统</span>
+							<span class="exp-project_company">（<span>河南太平医疗管理有限公司</span>）</span>
+						</p>
+						<p class="exp-list_time">2019.05-至今</p>
+						<div class="exp-project_des">
+							<p>西红柿劳务app和小程序的后台管理系统，使用vue开发。</p>
+							<p>功能：</p>
+							<p>1.职位模块。职位的增删改查。</p>
+							<p>2.轮播。app首页轮播的增删改查。</p>
+							<p>3.公司模块。公司的增删改查。公司应聘者简历。</p>
+							<p>4.消息模块。系统消息的增删改查。</p>
+							<p>5.反馈模块。反馈的查看与采纳。</p>
+							<p>6.用户与权限模块。角色的增删改查，角色权限的增删改，角色下用户的增删改查。</p>
+							<p>7.统计模块。用户数量、行为统计。</p>
+						</div>
+						<div class="exp-list_content">
+							<p>独立负责前端网站的开发与维护。</p>
+						</div>
+					</li>
+					<li class="pro-exp_list">
+						<p class="exp-list_title">
+							<span class="exp-project_name">西红柿管家app、微信小程序</span>
+							<span class="exp-project_company">（<span>河南太平医疗管理有限公司</span>）</span>
+						</p>
+						<p class="exp-list_time">2019.04-至今</p>
+						<div class="exp-project_des">
+							<p>项目简介：</p>
+							<p>西红柿是一款劳务app，公司可以通过后台管理系统发布职位、处理面试以及员工信息等。用户可以通过app寻找自己心仪的工作岗位。</p>
+							<p>功能模块：</p>
+							<p>1.职位模块。包括列表、详情、搜索、筛选、收藏、申请职位。</p>
+							<p>2.分享模块。包括邀请码、我的好友、我的奖励。</p>
+							<p>3.消息模块。包括系统通知、应聘通知、企业通知。</p>
+							<p>4.个人中心。包括通用设置模块、我的简历、申请记录、我的面试、我的收藏、我的钱包、我的工分、客服等。</p>
+							<p>5.简历模块。基本信息、求职模块、教育经历、工作经历。</p>
+						</div>
+						<div class="exp-list_content">
+							<p>独立负责app、小程序的开发上线和维护。</p>
+							<p>其中筛选功能已封装为独立插件发布到dcloud插件市场。</p>
+							<p>https://ext.dcloud.net.cn/plugin?id=381</p>
+							<p><br /></p>
+						</div>
+						<p class="exp-project_url">项目链接:
+							<a href="https://apps.apple.com/cn/app/西红柿管家/id1467157623" target="_blank">iOS App Store</a>、
+							<a href="https://www.times168.com/download.html" target="_blank">Android</a>
+						</p>
+					</li>
+					<li class="pro-exp_list">
+						<p class="exp-list_title">
+							<span class="exp-project_name">心理咨询项目</span>
+							<span class="exp-project_company">（<span>河南太平医疗管理有限公司</span>）</span>
+						</p>
+						<p class="exp-list_time">2019.03-至今</p>
+						<div class="exp-project_des">
+							<p>模块：</p>
+							<p>1.文章模块。包括文章列表、详情、评论、收藏等功能</p>
+							<p>2.问答模块。类似论坛模式。</p>
+							<p>3.付费提问模块。类似百度知道模式。</p>
+							<p>4.个人中心模块。</p>
+							<p>5.心理咨询师、律师模块。包括列表、个人主页、预约、个人动态等功能。</p>
+						</div>
+						<div class="exp-list_content">
+							<p>本项目包括pc端网站、手机端网站、微信小程序、移动app、后台管理系统。</p>
+							<p>独立负责所有前端开发工作。其中微信小程序和移动app使用uni-app框架开发。</p>
+						</div>
+					</li>
+					<li class="pro-exp_list">
+						<p class="exp-list_title">
+							<span class="exp-project_name">京都医美app</span>
+						</p>
+						<p class="exp-list_time">2018.11-2019.01</p>
+						<div class="exp-project_des">
+							<p>此app前端部分基本开发完成，与新氧、更美等医美类平台app类似。<br />app功能模块：<br />首页：轮播、项目分类、视频入口、日记动态入口。<br />发现：论坛类功能模块。<br />商城：商品列表、商品详情、购物车。<br />消息：动态提醒、系统消息。<br />个人中心：订单模块、设置模块、二级分销模块。<br /><br /></p>
+						</div>
+						<div class="exp-list_content">
+							<p>独立负责移动端app开发</p>
+						</div>
+					</li>
+					<li class="pro-exp_list">
+						<p class="exp-list_title">
+							<span class="exp-project_name">京都pc web网站、移动web网站</span>
+							<span class="exp-project_company">（<span>河南太平医疗管理有限公司</span>）</span>
+						</p>
+						<p class="exp-list_time">2018.09-2019.01</p>
+						<div class="exp-project_des">
+							<p>独立负责前端网站开发、前后端分离。<br />网站包括静态展示页面，动态文章页面等</p>
+						</div>
+						<div class="exp-list_content">
+							<p>独立负责前端开发</p>
+						</div>
+					</li>
+					<li class="pro-exp_list">
+						<p class="exp-list_title">
+							<span class="exp-project_name">京都网站后台管理系统</span>
+							<span class="exp-project_company">（<span>河南太平医疗管理有限公司</span>）</span>
+						</p>
+						<p class="exp-list_time">2018.09-2019.01</p>
+						<div class="exp-project_des">
+							<p>此管理系统主要功能有 两个优化站的文章的增删改查、网站更新等。<br />使用vue.js开发。</p>
+						</div>
+						<div class="exp-list_content">
+							<p>独立负责前端开发</p>
+						</div>
+					</li>
+					<li class="pro-exp_list">
+						<p class="exp-list_title">
+							<span class="exp-project_name">沙澧健康app后台管理系统</span>
+							<span class="exp-project_company">（<span>河南太平医疗管理有限公司</span>）</span>
+						</p>
+						<p class="exp-list_time">2018.04-2018.08</p>
+						<div class="exp-project_des">
+							<p>1.项目概况:<br />此管理后台是沙澧健康app的后台管理系统。<br />使用vue.js开发<br />2.功能：<br />● app轮播增删改查<br />● 资讯、文章增删改查<br />● 订单总览<br />●
+								医院增删改查<br />● 科室增删改查<br />● 角色增删改查<br />● 权限设置<br />● 后台用户增删改查</p>
+						</div>
+						<div class="exp-list_content">
+							<p>独立负责前端开发</p>
+						</div>
+					</li>
+					<li class="pro-exp_list">
+						<p class="exp-list_title">
+							<span class="exp-project_name">沙澧健康</span>
+							<span class="exp-project_company">（<span>河南太平医疗管理有限公司</span>）</span>
+						</p>
+						<p class="exp-list_time">2017.11-2018.08</p>
+						<div class="exp-project_des">
+							<p>1.项目概况：<br />沙澧健康是一款本地便民app。<br />2.功能：在线咨询、在线挂号、预约体检、健康自测、私人医生、在线问诊、医院入驻等<br />3.人员分工：<br />此项目由两人完成，一人负责java后端开发，我负责移动端app开发以及苹果、安卓各大平台开发者账号注册审核和上线。<br />app使用dcloud框架
+								mui+h5plus接口跨平台开发，可在iOS和安卓系统上运行。</p>
+						</div>
+						<div class="exp-list_content">
+							<p>独立负责移动端跨平台app开发、苹果和安卓各大平台的上架、审核。</p>
+						</div>
+						<p class="exp-project_url">项目链接:
+							<a href="https://apps.apple.com/cn/app/%E6%B2%99%E6%BE%A7%E5%81%A5%E5%BA%B7/id1422175593" target="_blank">iOS
+								App Store</a>、
+							安卓在各大手机厂商应用市场上架
+						</p>
+					</li>
+					<li class="pro-exp_list">
+						<p class="exp-list_title">
+							<span class="exp-project_name">沙澧健康app医院端后台管理系统</span>
+							<span class="exp-project_company">（<span>河南太平医疗管理有限公司</span>）</span>
+						</p>
+						<p class="exp-list_time">2018.04-2018.07</p>
+						<div class="exp-project_des">
+							<p>1.项目概况:<br />此管理后台是沙澧健康app的医院端的后台管理系统。<br />使用vue.js开发<br />2.功能：<br />● 医生增删改查<br />● 科室增删改查<br />●
+								订单总览、查看、处理、回复等</p>
+						</div>
+						<div class="exp-list_content">
+							<p>独立负责前端开发</p>
+						</div>
+					</li>
+					<li class="pro-exp_list">
+						<p class="exp-list_title">
+							<span class="exp-project_name">新销售系统（前端项目）</span>
+							<span class="exp-project_company">（<span>北京盼大世纪信息技术有限公司</span>）</span>
+						</p>
+						<p class="exp-list_time">2017.08-2017.09</p>
+						<div class="exp-project_des">
+							<p>由于公司前端项目紧急并且人手不够，8月开始参与新销售系统的开发，并完成了项目中的绝大部分工作。</p>
+							<p>此系统的功能有：登录、提交表单、上传图片到七牛云、数据存储到LocalStorage和SessionStorage、城市三级联动等。项目使用vue.js
+								+elementUI，ajax是用的axios，数据存储用的vuex。</p>
+						</div>
+						<div class="exp-list_content">
+							<p>学习vue并担任主要开发</p>
+						</div>
+					</li>
+					<li class="pro-exp_list">
+						<p class="exp-list_title">
+							<span class="exp-project_name">盼贷理财</span>
+							<span class="exp-project_company">（<span>北京盼大世纪信息技术有限公司</span>）</span>
+						</p>
+						<p class="exp-list_time">2015.07-2017.09</p>
+						<div class="exp-project_des">
+							<p>1.独立负责iOS端项目开发与维护、迭代更新</p>
+							<p>2.与产品经理讨论、确定需求</p>
+							<p> 3.与服务端人员协调接口</p>
+							<p> 4.完成产品调试、分发、上线等工作&nbsp;</p>
+							<p>5.封装滑动菜单、弹窗等自定义控件在项目中统一使用</p>
+							<p>北京盼大世纪信息技术有限公司是一个p2p公司，盼贷理财是公司的理财端app，使用联动优势进行三方托管与支付。用户可通过app进行购买标的、充值提现、债权转让、邀请好友、智能匹配标的并且批量购买等操作。</p>
+							<p>项目中除了使用一些流行的第三方库，还使用了两个我自己封装的控件SLAlertView和SLSlideMenu</p>
+							<p>
+								<a href="https://github.com/SongLazy/SLAlertView" target="_blank">SLAlertView：</a>
+								简约系统风格自由定制的弹窗Alert&amp;ActionSheet。由于产品要求项目中的弹窗等控件要符合项目的主题颜色，所以才有了可自由定制各个部分颜色的SLAlertView。
+							</p>
+
+							<p>
+								<a href="https://github.com/SongLazy/SLSlideMenu" target="_blank">SLSlideMenu：</a>
+								一句代码上/下/左/右弹出菜单。可通过手势呼出、关闭，随意添加子控件。
+							</p>
+
+							<p><br /></p>
+						</div>
+						<div class="exp-list_content">
+							<p>独立开发维护、迭代更新。</p>
+						</div>
+					</li>
+				</ol>
+			</div>
+			<!-- /项目经历 -->
+			<!-- 教育经历 -->
+			<div class="mr-template edu-exp" id="eduExp">
+				<div class="mr-template_title">
+					<span>教育经历</span>
+				</div>
+				<ol class="edu-exp_group">
+					<li class="edu-exp_list">
+						<p class="exp-list_time">2011-2015</p>
+						<div class="exp-list_top">
+							<img src="https://www.lgstatic.com/i/image/M00/AD/4E/CgqKkVi1E4GAF0PGAAAJH8Z2_RY79.jpeg" alt="学校Logo">
+							<div class="exp-list_right">
+								<strong>青岛科技大学</strong>
+								<p>本科 / 物联网工程</p>
+							</div>
+						</div>
+					</li>
+				</ol>
+			</div>
+			<!-- /教育经历 -->
+
+			<!-- 社交主页 -->
+			<div class="mr-template social-page" id="socialPage">
+				<div class="mr-template_title">
+					<span>社交主页</span>
+				</div>
+				<ol class="social-page_group">
+					<li class="social-page_list">
+						<div class="social-page_content">
+							<img src="https://www.lgstatic.com/common/image/social/github@2x.png" alt="">
+							<p>
+								<a href="https://github.com/SongLazy" target="_blank">https://github.com/SongLazy</a>
+							</p>
+						</div>
+					</li>
+					<li class="social-page_list">
+						<div class="social-page_content">
+							简书：
+							<p>
+								<a href="https://www.jianshu.com/u/ebbb122dfe9c" target="_blank">Songlazy</a>
+							</p>
+						</div>
+					</li>
+				</ol>
+			</div>
+			<!-- /社交主页 -->
+
+			<!-- 图片作品 -->
+			<!-- /图片作品 -->
+		</div>
+		<script type="text/javascript" src="https://www.lagou.com/upload/oss.js"></script>
+	</body>
+
+</html>
