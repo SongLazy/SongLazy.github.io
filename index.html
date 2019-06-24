@@ -560,17 +560,21 @@
 
 
         /***** 社交主页 end ****/
-                /***** 图片作品 ****/
+        /***** 图片作品 ****/
 
         .portfolio-page .portfolio-list{
             margin-bottom: 30px;
             position: relative;
+			text-align: center;
         }
         .portfolio-page .portfolio-list .portfolio-content{
             font-size: 14px;
             color: #666666;
+			text-align: center;
         }
-
+		.portfolio-page .portfolio-list img {
+			height: 300px;
+		}
 
         /***** 图片作品 end ****/
     </style>
@@ -636,9 +640,9 @@
 						<p>4年iOS和前端开发经验。参与、主导、独立开发过多款iOS原生app、跨平台app以及网站，涉及理财，教育，医疗，医美，劳务、资讯等多行业。熟练掌握oc、html+css+js、jQuery、vue.js、uni-app、h5plus。目前独立负责公司所有前端、移动端开发维护工作。</p>
 						<p>开源组件：
 							<ul>
-								<li><a href="http://ext.dcloud.net.cn/plugin?id=381">sl-filter(uni-app)</a></li>
-								<li><a href="https://github.com/SongLazy/SLSlideMenu">SLSlideMenu(OC)</a></li>
-								<li><a href="https://github.com/SongLazy/SLAlertView">SLAlertView(OC)</a></li>
+								<li><a href="http://ext.dcloud.net.cn/plugin?id=381" target="_blank">sl-filter(uni-app)</a></li>
+								<li><a href="https://github.com/SongLazy/SLSlideMenu" target="_blank">SLSlideMenu(OC)</a></li>
+								<li><a href="https://github.com/SongLazy/SLAlertView" target="_blank">SLAlertView(OC)</a></li>
 							</ul>
 						</p>
 					</div>
@@ -966,36 +970,59 @@
 
 			<!-- 图片作品 -->
 			<div class="mr-template portfolio-page" id="portfolioPage">
-			    <div class="mr-template_title">
-			        <span>图片作品</span>
-			    </div>
-			    <ol class="portfolio-group"> 
-			            <li class="portfolio-list">
-							<img src="https://www.lgstatic.com/i/image2/M01/4F/AB/CgotOV0QbIeAUXPPAAqAMlPS5V8359.jpg" >
-			            </li>
-			            <li class="portfolio-list">
-							<img src="https://www.lgstatic.com/i/image2/M01/4F/8A/CgoB5l0QbHaAOjUnAAvwgvltQb8499.jpg" >
-			            </li>
-			            <li class="portfolio-list">
-							<img src="https://www.lgstatic.com/i/image2/M01/4F/8A/CgoB5l0QbGuAIPAsAAK7iWscibc757.jpg" >
-			            </li>
-			            <li class="portfolio-list">
-							<img src="https://www.lgstatic.com/i/image2/M01/4F/AA/CgotOV0QbGWAWHHcAARCdKgZ8Vs707.png" >
-			            </li>
-			            <li class="portfolio-list">
-							<img src="https://www.lgstatic.com/i/image2/M01/4F/AA/CgotOV0QbF6AJDe2AAPn8rvla04458.png" >
-			            </li>
-			            <li class="portfolio-list">
-							<img src="https://www.lgstatic.com/i/image2/M01/4F/AA/CgotOV0QbFWAd_ARAAP56WTneoQ228.png" >
-			            </li>
-			            <li class="portfolio-list">
-							<img src="https://www.lgstatic.com/i/image2/M01/4F/AA/CgotOV0QbE6AOgnPAAH7MtXkmQc153.png" >
-			                <p class="portfolio-content"></p>
-			            </li>
-			            <li class="portfolio-list">
-							<img src="https://www.lgstatic.com/i/image2/M01/4F/AA/CgotOV0QbEaABKMuAA2mZae4JnE920.png" >
-			            </li>
-			    </ol>
+				<div class="mr-template_title">
+					<span>图片作品</span>
+				</div>
+				<ol class="portfolio-group">
+					<li class="portfolio-list">
+						<a href="https://www.lgstatic.com/i/image2/M01/4F/AB/CgotOV0QbIeAUXPPAAqAMlPS5V8359.jpg">
+							<img src="https://www.lgstatic.com/i/image2/M01/4F/AB/CgotOV0QbIeAUXPPAAqAMlPS5V8359.jpg">
+							<p class="portfolio-content">西红柿管家app 首页</p>
+						</a>
+					</li>
+					<li class="portfolio-list">
+						<a href="https://www.lgstatic.com/i/image2/M01/4F/8A/CgoB5l0QbHaAOjUnAAvwgvltQb8499.jpg">
+							<img src="https://www.lgstatic.com/i/image2/M01/4F/8A/CgoB5l0QbHaAOjUnAAvwgvltQb8499.jpg">
+							<p class="portfolio-content">西红柿管家app 个人中心</p>
+						</a>
+					</li>
+					<li class="portfolio-list">
+						<a href="https://www.lgstatic.com/i/image2/M01/4F/8A/CgoB5l0QbGuAIPAsAAK7iWscibc757.jpg">
+							<img src="https://www.lgstatic.com/i/image2/M01/4F/8A/CgoB5l0QbGuAIPAsAAK7iWscibc757.jpg">
+							<p class="portfolio-content">西红柿管家app 简历页面</p>
+						</a>
+					</li>
+					<li class="portfolio-list">
+						<a href="https://www.lgstatic.com/i/image2/M01/4F/AA/CgotOV0QbGWAWHHcAARCdKgZ8Vs707.png">
+							<img src="https://www.lgstatic.com/i/image2/M01/4F/AA/CgotOV0QbGWAWHHcAARCdKgZ8Vs707.png">
+							<p class="portfolio-content">西红柿管家app 后台管理-应聘管理</p>
+						</a>
+					</li>
+					<li class="portfolio-list">
+						<a href="https://www.lgstatic.com/i/image2/M01/4F/AA/CgotOV0QbF6AJDe2AAPn8rvla04458.png">
+							<img src="https://www.lgstatic.com/i/image2/M01/4F/AA/CgotOV0QbF6AJDe2AAPn8rvla04458.png">
+							<p class="portfolio-content">西红柿管家app 后台管理-菜单管理</p>
+						</a>
+					</li>
+					<li class="portfolio-list">
+						<a href="https://www.lgstatic.com/i/image2/M01/4F/AA/CgotOV0QbFWAd_ARAAP56WTneoQ228.png">
+							<img src="https://www.lgstatic.com/i/image2/M01/4F/AA/CgotOV0QbFWAd_ARAAP56WTneoQ228.png">
+							<p class="portfolio-content">西红柿管家app 后台管理-权限管理</p>
+						</a>
+					</li>
+					<li class="portfolio-list">
+						<a href="https://www.lgstatic.com/i/image2/M01/4F/AA/CgotOV0QbE6AOgnPAAH7MtXkmQc153.png">
+							<img src="https://www.lgstatic.com/i/image2/M01/4F/AA/CgotOV0QbE6AOgnPAAH7MtXkmQc153.png">
+							<p class="portfolio-content">夫妻故事 登录</p>
+						</a>
+					</li>
+					<li class="portfolio-list">
+						<a href="https://www.lgstatic.com/i/image2/M01/4F/AA/CgotOV0QbEaABKMuAA2mZae4JnE920.png">
+							<img src="https://www.lgstatic.com/i/image2/M01/4F/AA/CgotOV0QbEaABKMuAA2mZae4JnE920.png">
+							<p class="portfolio-content">夫妻故事 文章列表</p>
+						</a>
+					</li>
+				</ol>
 			</div>
 			<!-- /图片作品 -->
 		</div>
